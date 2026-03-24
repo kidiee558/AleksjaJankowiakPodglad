@@ -152,18 +152,18 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--color-bg-main)]"></div>
         </div>
         
-        <div className="relative z-10 max-w-3xl mx-auto text-center">
-          <h2 className="text-xs uppercase tracking-widest text-[var(--color-accent)] font-medium mb-4">O mnie</h2>
-          <h3 className="text-4xl md:text-5xl font-serif text-[var(--color-text-main)] mb-8">Aleksja Jankowiak</h3>
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
+          <h2 className="text-xs uppercase tracking-[0.3em] text-[var(--color-accent-dark)] font-semibold mb-4">O mnie</h2>
+          <h3 className="text-5xl md:text-6xl font-serif text-[var(--color-text-main)] mb-8">Aleksja Jankowiak</h3>
           
-          <div className="w-12 h-[1px] bg-[var(--color-accent)] mx-auto mb-10"></div>
+          <div className="w-16 h-[1px] bg-[var(--color-accent)] mx-auto mb-10"></div>
           
-          <div className="space-y-4 text-[var(--color-text-main)] font-medium leading-relaxed tracking-wide text-base md:text-lg">
+          <div className="space-y-6 text-[var(--color-text-main)] font-serif text-xl md:text-2xl leading-relaxed px-4">
             <p>
               Fotografia to dla mnie coś więcej niż tylko wciskanie spustu migawki. To sztuka zatrzymywania czasu, emocji i relacji, które są dla Was najważniejsze.
             </p>
             <p>
-              Specjalizuję się w fotografii <span className="font-bold text-[var(--color-accent-dark)]">rodzinnej, kobiecej, ciążowej, dziecięcej oraz zwierząt</span>. Do każdej sesji podchodzę indywidualnie, starając się stworzyć luźną, przyjazną atmosferę, w której będziecie czuć się swobodnie.
+              Specjalizuję się w fotografii <span className="italic text-[var(--color-accent-dark)] font-medium">rodzinnej, kobiecej, ciążowej, dziecięcej oraz zwierząt</span>. Do każdej sesji podchodzę indywidualnie, starając się stworzyć luźną, przyjazną atmosferę, w której będziecie czuć się swobodnie.
             </p>
             <p>
               Pracuję na wysokiej jakości sprzęcie fotograficznym, co gwarantuje najwyższą jakość Waszych zdjęć. Wykonam dla Was pamiątkę w zgodzie z moim poczuciem estetyki oraz etyki. Zależy mi na naturalności, delikatności i prawdziwych emocjach.
@@ -171,7 +171,7 @@ export default function App() {
           </div>
           
           {/* Kreska oddzielająca sekcję O mnie od Portfolio */}
-          <div className="w-full max-w-xs h-[1px] bg-[var(--color-accent)]/40 mx-auto mt-12"></div>
+          <div className="w-full max-w-xs h-[1px] bg-[var(--color-accent)]/40 mx-auto mt-16"></div>
         </div>
       </section>
 
