@@ -158,12 +158,12 @@ export default function App() {
           
           <div className="w-16 h-[1px] bg-[var(--color-accent)] mx-auto mb-10"></div>
           
-          <div className="space-y-6 text-[var(--color-text-main)] font-serif text-xl md:text-2xl leading-relaxed px-4">
+          <div className="space-y-6 text-[var(--color-text-main)] font-serif text-xl md:text-2xl leading-relaxed px-4 font-semibold drop-shadow-sm">
             <p>
               Fotografia to dla mnie coś więcej niż tylko wciskanie spustu migawki. To sztuka zatrzymywania czasu, emocji i relacji, które są dla Was najważniejsze.
             </p>
             <p>
-              Specjalizuję się w fotografii <span className="italic text-[var(--color-accent-dark)] font-medium">rodzinnej, kobiecej, ciążowej, dziecięcej oraz zwierząt</span>. Do każdej sesji podchodzę indywidualnie, starając się stworzyć luźną, przyjazną atmosferę, w której będziecie czuć się swobodnie.
+              Specjalizuję się w fotografii <span className="italic text-[var(--color-accent-dark)] font-bold">rodzinnej, kobiecej, ciążowej, dziecięcej oraz zwierząt</span>. Do każdej sesji podchodzę indywidualnie, starając się stworzyć luźną, przyjazną atmosferę, w której będziecie czuć się swobodnie.
             </p>
             <p>
               Pracuję na wysokiej jakości sprzęcie fotograficznym, co gwarantuje najwyższą jakość Waszych zdjęć. Wykonam dla Was pamiątkę w zgodzie z moim poczuciem estetyki oraz etyki. Zależy mi na naturalności, delikatności i prawdziwych emocjach.
@@ -180,7 +180,7 @@ export default function App() {
         <div className="text-center mb-16 space-y-4 px-6">
           <h2 className="text-sm uppercase tracking-widest text-[var(--color-accent)] font-medium">Portfolio</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-[var(--color-text-main)]">Moje Prace</h3>
-          <p className="text-[var(--color-text-muted)] max-w-2xl mx-auto font-light">
+          <p className="text-[var(--color-text-main)] max-w-2xl mx-auto font-serif text-xl md:text-2xl leading-relaxed font-medium">
             Zajrzyj do mojego świata. Każde zdjęcie to inna historia, pełna miłości, czułości i naturalnego piękna.
           </p>
         </div>
@@ -223,7 +223,7 @@ export default function App() {
           <div className="text-center mb-20 space-y-4">
             <h2 className="text-sm uppercase tracking-widest text-[var(--color-accent)] font-medium">Oferta</h2>
             <h3 className="text-4xl md:text-5xl font-serif text-[var(--color-text-main)]">Cennik Sesji</h3>
-            <p className="text-[var(--color-text-muted)] max-w-2xl mx-auto font-light">
+            <p className="text-[var(--color-text-main)] max-w-2xl mx-auto font-serif text-xl md:text-2xl leading-relaxed font-medium">
               Wybierz pakiet idealny dla siebie. Każda sesja jest dostosowana do Twoich indywidualnych potrzeb.
             </p>
           </div>
